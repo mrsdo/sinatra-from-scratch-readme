@@ -1,8 +1,8 @@
 require 'sinatra'
-class App < Sinatra::Base
+class MyToDoApp < Sinatra::Base
 
   get '/' do 
-    "Hello, world! This is working!"
+    "Hello, world! This is working with config.ru"
   end
 
 end
